@@ -153,8 +153,18 @@ body {
   margin-bottom: 25px;
 }
 
-.about__paragraph {
-  line-height: 1.7;
+.about__icons {
+  display: grid;
+  gap: 1em;
+  justify-items: center;
+  width: 260px;
+  overflow: hidden;
+  margin: 0 auto;
+  grid-template-rows: 40px 40px auto;
+}
+
+.about__icon {
+  width: 40px;
 }
 
 .about__main {
@@ -169,17 +179,8 @@ body {
   /*Columnas dinamicas con un minimo de 260 px por columna*/
 }
 
-.about__icons {
-  display: grid;
-  gap: 1em;
-  justify-items: center;
-  width: 260px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.about__icon {
-  width: 40px;
+.about__paragraph {
+  line-height: 1.7;
 }
 
 /* Knowledge */
