@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VRSA Advisor</title>
+  <link rel="shortcut icon" href="./imagenes/plane.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <meta name="theme-color" content="#2091f9">
+
+  <!-- Primary Meta Tags -->
+  <title>VRSA Advisor</title>
+  <meta name="title" content="Prueba de titulo">
+  <meta name="description"
+    content="Plan de viajes a mas de 13 DISTINTOS destinos, disfruta en nuestros planes 100% FAMILIARES">
+
+</head>
+
+<body>
+
+  <header class="hero">
+    <!-- limito la clase a un solo contenedor, osea no tocar los limites -->
+    <nav class="nav container">
+      <div class="nav__logo">
+        <h2 class="nav__title">VRSA Advisor.<h2>
+      </div>
+
+      <ul class="nav__link nav__link--menu">
+        <li class="nav__items">
+          <a href="#inicio" class="nav__links">Inicio</a>
+        </li>
+        <li class="nav__items">
+          <a href="#nosotros" class="nav__links">Acerca de</a>
+        </li>
+        <li class="nav__items">
+          <a href="#precios" class="nav__links">Precios</a>
+        </li>
+        <li class="nav__items">
+          <a href="#contacto" class="nav__links">Contacto</a>
+        </li>
+
+        <img src="./imagenes/close.svg" alt="close" class="nav__close">
+      </ul>
+
+      <div class="nav__menu">
+        <img src="./imagenes/menu.svg" alt="menu" class="" nav__img>
+      </div>
+    </nav>
+
+    <section class="hero__container container" id="inicio">
+      <h1 class="hero__title">Programa tus VACACIONES al MEJOR precio! </h1>
+      <p class="hero__paragraph">Elige tus vacaciones de una vez por todas, liberate de esa tension con la que cargas y
+        regalate o regalale a tu familia ese merecido descanso.</p>
+      <a href="#precios" class="cta">Comienza ahora</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="container about">
+      <h2 class="subtitle">¿Qué actividades encontraras aquí?</h2>
+      <p class="about__paragraph">Todo lo necesario para descansar, divertirte y crear esos MOMENTOS los cuales harán de
+        esta una experiencia inolvidable</p>
+
+      <div class="about__main">
+        <article class="about__icons">
+          <img src="./imagenes/montania.svg" alt="Icono de montaña" class="about__icon">
+          <h3 class="about__title">Excursiones</h3>
+          <p class="about__paragraph">Conoce los lugares turisticos a su vez que los hermosos paisajes, integrandote en
+            la cultura local.
+          </p>
+        </article>
+        <article class="about__icons">
+          <img src="./imagenes/hotel.svg" alt="Icono de hotel" class="about__icon">
+          <h3 class="about__title">Hotel</h3>
+          <p class="about__paragraph">Hospedate en hoteles de alta CALIDAD y disfruta de todas las experiencias que te
+            brinda GRATIS tales como masajes, ambientacion romantica y barra libre.
+          </p>
+        </article>
+        <article class="about__icons">
+          <img src="./imagenes/baby.svg" alt="Icono de guarderia" class="about__icon">
+          <h3 class="about__title">Guarderia</h3>
+          <p class="about__paragraph">Servicio GRATUITO de guarderia con personal profesional, garantizando asi el
+            disfrute de todos.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="knowledge">
+      <!--a diferencia del otro section, este no tiene container ya que le quiero cambiar el color de fondo y pues si tiene container solo se le aplicario al 80%-->
+      <div class="knowledge__container container" id="nosotros">
+        <div class="knowledge__texts">
+          <h2 class="subtitle">Vacaciones completas. ¡Crea esos MOMENTOS inolvidables!</h2>
+          <p class="knowledge__paragraph">Los MOMENTOS son aquellos recuerdos los cuales marcan positivamente a las
+            personas, haciendolos recordar con nostalgia una grata experiencia. !Nuestro objetivo es ese! crear esas
+            experiencias inolvidables, esos MOMENTOS.</p>
+          <a href="#precios" class="cta">Encuentra tu plan</a>
+        </div>
+        <figure class="knowledge__picture">
+          <img src="./imagenes/MacBook Pro 13.png" alt="imagen de macbook" class="knowledge__img">
+        </figure>
+      </div>
+    </section>
+
+    <section class="price container" id="precios">
+      <h2 class="subtitle">Obten el plan perfecto</h2>
+
+      <div class="price__table">
+        <div class="price__element">
+          <p class="price__name">Basico</p>
+          <h3 class="price__price">$699</h3>
+
+          <div class="price__items">
+            <p class="price__features">4 dias 5 noches</p>
+            <p class="price__features">3 destinos elegibles</p>
+            <p class="price__features">Shows todos los dias</p>
+          </div>
+
+          <a  class="price__cta price__cta--trans">Comprar ahora</a>
+        </div>
+
+
+        <div class="price__element price__element--best">
+          <p class="price__name">Premium</p>
+          <h3 class="price__price">$899</h3>
+
+          <div class="price__items">
+            <p class="price__features">6 dias 6 noches</p>
+            <p class="price__features">8 destinos elegibles</p>
+            <p class="price__features">Shows todos los dias</p>
+          </div>
+
+          <a class="price__cta price__cta--trans">Comprar ahora</a>
+        </div>
+
+
+        <div class="price__element">
+          <p class="price__name">Pro</p>
+          <h3 class="price__price">$999</h3>
+
+          <div class="price__items">
+            <p class="price__features">6 dias 7 noches</p>
+            <p class="price__features">13 destinos elegibles</p>
+            <p class="price__features">Shows todos los dias</p>
+          </div>
+
+          <a class="price__cta price__cta--trans">Comprar ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimony">
+      <div class="testimony__container container">
+        <img src="./imagenes/leftarrow.svg" class="testimony__arrow" alt="Flecha izquierda" id="before">
+
+        <section class="testimony__body testimony__body--show" data-id="1">
+          <div class="testimony__text">
+            <h2 class="subtitle">Mi nombre es Miranda Ramirez, <span testimony__course>Cliente.</span></h2>
+            <p class="testimony__review">son muy profesionales y lo mas importante, respetan los tiempos estipulados.
+              viajé con ellos a turquia y fue una experiencia inolvidable</p>
+          </div>
+
+          <figure class="testimony__picture">
+            <img src="./imagenes/cliente2.jpeg" class="testimony__img" alt="Imagen de persona">
+          </figure>
+        </section>
+
+
+        <section class="testimony__body" data-id="2">
+          <div class="testimony__text">
+            <h2 class="subtitle">Mi nombre es Alejandra Restrepo, <span testimony__course>Recreacionista.</span></h2>
+            <p class="testimony__review">Durante un largo tiempo he trabajado en VRSA advisor como recreacionista de la
+              guarderia, rodeada de personal muy capacitado y confiable, responsable del cuidado de los niños.</p>
+          </div>
+
+          <figure class="testimony__picture">
+            <img src="./imagenes/niñera.jpg" class="testimony__img" alt="Imagen de persona">
+          </figure>
+        </section>
+
+        <section class="testimony__body" data-id="3">
+          <div class="testimony__text">
+            <h2 class="subtitle">Mi nombre es Michael Tobon, <span testimony__course>Cliente.</span></h2>
+            <p class="testimony__review">Pase las vacaciones del año 2021 en Cancun con la empresa VRSA advisor, fueron
+              muy cumplido en cuanto lo estipulado.</p>
+          </div>
+
+          <figure class="testimony__picture">
+            <img src="./imagenes/cliente3.jpg" class="testimony__img" alt="Imagen de persona">
+          </figure>
+        </section>
+
+        <section class="testimony__body" data-id="4">
+          <div class="testimony__text">
+            <h2 class="subtitle">Mi nombre es karen Arteaga, <span testimony__course>Cliente.</span></h2>
+            <p class="testimony__review">Celebre mis 15 años en España y fue el mejor regalo que me pudieron haber dado,
+              ya que los recuerdos que me quedaron fueron unicos.</p>
+          </div>
+
+          <figure class="testimony__picture">
+            <img src="./imagenes/15s.jpg" class="testimony__img" alt="Imagen de persona">
+          </figure>
+        </section>
+
+        <img src="./imagenes/rightarrow.svg" class="testimony__arrow" alt="Flecha derecha" id="next">
+      </div>
+      </div>
+
+
+    </section>
+
+    <section class="questions container">
+      <h2 class="subtitle">Preguntas frecuentes</h2>
+
+
+      <section class="questions__container">
+        <article class="questions__padding">
+          <div class="questions__answer">
+            <h3 class="questions__title">
+              ¿Qué son los destinos elegibles?
+              <span class="questions__arrow">
+                <img src="./imagenes/arrow.svg" class="questions__img" alt="Imagen de flecha">
+              </span>
+            </h3>
+
+            <p class="questions__show">En VRSA Advisor llegamos a la conclucion de que las vacaciones ideales son
+              subjetivas, por ende tenemos distintos destinos vacacionales pensados en la variedad de gustos, desde
+              playa hasta desiertos, contamos con una enorme diversidad.</p>
+          </div>
+        </article>
+
+        <article class="questions__padding">
+          <div class="questions__answer">
+            <h3 class="questions__title">
+              ¿Que sucede su cancelo el plan una vez pagado?
+              <span class="questions__arrow">
+                <img src="./imagenes/arrow.svg" class="questions__img" alt="Imagen de flecha">
+              </span>
+            </h3>
+
+            <p class="questions__show">Si se cancela justo despues de la compra, se le devuelve el 100% del valor total,
+              pero dado el caso que se cancele despues de que hayamos realizado todo el proceso de reservas, se le
+              devuelve el 30% del valor total. si la cancelacion es un mes antes del viaje, no se hacen devoluciones.
+            </p>
+          </div>
+        </article>
+
+        <article class="questions__padding">
+          <div class="questions__answer">
+            <h3 class="questions__title">
+              ¿Porque viajar en VRSA Advisor?
+              <span class="questions__arrow">
+                <img src="./imagenes/arrow.svg" class="questions__img" alt="Imagen de flecha">
+              </span>
+            </h3>
+
+            <p class="questions__show">A diferencia de nuestra copetencia, aqui nuestra prioridad es la satisfaccion del
+              cliente encima que la nuestra, logrando por medio de la mejor comodidad conseguir esos momentos deseados.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="questions__offer">
+        <h2 class="subtitle">¿Estas listo para prgramar tus vacaciones?</h2>
+        <p class="questions__copy">Programate ya y disfruta de nuestros destinos a la mejor calidad y al mejor precio.
+        </p>
+        <a href="#precios" class="cta">Compra ahora</a>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <section class="footer__container container">
+      <nav class="nav nav--footer">
+        <h2 class="footer__title">VRSA Advisor.
+        </h2>
+        <ul class="nav__link nav__link--footer">
+          <li class="nav__items">
+            <a href="#inicio" class="nav__links">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#nosotros" class="nav__links">Acerca de</a>
+          </li>
+          <li class="nav__items">
+            <a href="#precios" class="nav__links">Precios</a>
+          </li>
+          <li class="nav__items">
+            <a href="#contacto" class="nav__links">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <form class="footer__form" id="footer__form">
+        <h2 class="footer__newsletter">Preguntanos</h2>
+        <div class="footer__inputs">
+          <input type="text" placeholder="Nombre" class="footer__input" id="nameee" name="nameee">
+          <input type="text" placeholder="e-mail" class="footer__input" id="email" name="email">
+          <input type="text" placeholder="Pregunta" class="footer__input footer__input--ask" id="ask" name="ask">
+          <input type="submit" value="Enviar msj" id="button" class="footer__submit">
+        </div>
+      </form>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">emailjs.init('0-dOrW-mWVFjjL2Cj')</script>
+    </section>
+
+    <section class="footer__copy container">
+      <div class="footer__social">
+        <a href="" class="footer__icons">
+          <img src="./imagenes/facebook.svg" class="footer__img" alt="Icono facebook">
+        </a>
+
+        <a href="" class="footer__icons">
+          <img src="./imagenes/youtube.svg" class="footer__img" alt="Icono youtube">
+        </a>
+
+        <a href="" class="footer__icons">
+          <img src="./imagenes/twitter.svg" class="footer__img" alt="Icono twitter">
+        </a>
+      </div>
+
+      <h3 class="footer__copyright">Derechos &copy; VRSA</h3>
+    </section>
+  </footer>
+
+  <script src="./js/slider.js"></script>
+  <script src="./js/questions.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/priceShow.js"></script>
+
+
+</body>
+<script>
+  const btn = document.getElementById('button');
+
+  document.getElementById('footer__form')
+    .addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      btn.value = 'Enviando...';
+
+      const serviceID = 'default_service';
+      const templateID = 'template_5fs99ts';
+
+      emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+          btn.value = 'Enviar msj';
+          alert('Mensaje enviado');
+        }, (err) => {
+          btn.value = 'Enviar msj';
+          alert(JSON.stringify(err));
+        });
+    });</script>
+
+</html>
