@@ -532,7 +532,6 @@ body {
     z-index: 100;
     opacity: 0;
     pointer-events: none;
-    transition: .7s opacity;
   }
 
   .nav__link--show{
